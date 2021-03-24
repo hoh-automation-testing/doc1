@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "aqsd"
+  description: "something to document"
+  annotations:
+    github.com/project-slug: hoh-automation-testing/doc1
+    backstage.io/techdocs-ref: url:https://github.com/hoh-automation-testing/doc1
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "hoh"
